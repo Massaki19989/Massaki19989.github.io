@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/human-hologram-technology-ebxsf3kkk1a745r5.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.center{
+    width: 1300px;
+    max-width: 100%;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    transition: 0.5s;
+    border-right: 1px solid gray;
+}
+
+header a:hover{
+    color: blue;
+}
+
+main{
+    
+    padding: 150px 0;
+}
+
+.home{
+    padding: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.847);
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+
+.home h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home img{
+    margin-top: 10px;
+    width: 60px;
+}
